@@ -1,6 +1,3 @@
-//Global Variables
-//--------------------------------------------------------------------------------------------
-
 //Crystal Variables
 var crystal = {
     green:
@@ -71,7 +68,7 @@ var startGame = function () {
 var addValues = function(crystal) {
 
     // Change Current Score
-    currentScore = currentScore = crystal.value;
+    currentScore = currentScore + crystal.value;
 
     //Change HTML to reflect changes in currentScore
     $("#yourScore").html(currentScore);
